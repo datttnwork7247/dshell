@@ -1,6 +1,7 @@
 # dshell
 Create, delete and change shell mode in emacs
 
+|         |                                            |                     |
 | :--     | :--                                        | :--                 |
 | C-x 5   | dshell-split-3-windows-horizontally-evenly |                     |
 | C-x 6   | dshell-split-3-windows-vertically-evenly   |                     |
@@ -14,4 +15,3 @@ Create, delete and change shell mode in emacs
 |         |                                            |                     |
 | f11     | dshell-term-toggle-mode                    |                     |
 | f5      | spacemacs/revert-buffer-no-confirm         | Reopen a buffer     |
-
