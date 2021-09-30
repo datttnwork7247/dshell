@@ -12,8 +12,8 @@
 (defun dshell-create ()
   (interactive)
   "creates a shell with a given name"
-  (let ((shell-name (read-string "shell name: " nil)))
-    (shell (concat "*" shell-name "*"))))
+  (let ((shell-num (read-string "shell number: " nil)))
+    (shell (concat "*shell-" shell-num "*"))))
 
 (defun dshell-split-3-windows-horizontally-evenly ()
   (interactive)
