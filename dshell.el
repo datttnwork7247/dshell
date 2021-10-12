@@ -98,9 +98,7 @@
         (global-set-key [S-up]    'windmove-up)           ; move to upper window
         (global-set-key [S-down]  'windmove-down)         ; move to lower window
         (global-set-key [f11] 'dshell-term-toggle-mode)
-        (global-set-key [f5] 'spacemacs/revert-buffer-no-confirm)
-        (setq mac-command-modifier 'meta) ; set alt-key to meta
-        (setq mac-option-modifier  'nil))
+        (global-set-key [f5] 'spacemacs/revert-buffer-no-confirm))
     nil))
 
 (dshell-key-bindings)
