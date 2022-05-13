@@ -57,13 +57,13 @@
   (delete-other-windows)
   (split-window-horizontally)
   (other-window 1)
-  (split-window-vertically)
-  (other-window 2)
-
-  (shell "*shell-3*")
-  (other-window 1)
   (shell "*shell-1*")
+  (split-window-vertically)
+  (other-window 1)
+  (shell "*shell-3*")                   ;hidden shell-3
   (shell "*shell-2*")
+  ;; goto shell-1
+  (other-window 2)
   )
 
 (defun dshell-create-bash-shell ()
